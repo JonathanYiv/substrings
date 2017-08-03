@@ -1,5 +1,12 @@
-def substrings
-
+def substrings string, dictionary
+	hash = {}
+	string.downcase!
+	for i in 0...dictionary.length
+		if(string.include? dictionary[i])
+			hash[dictionary[i]] = string.scan(/#{dictionary[i]}/).count
+		end
+	end
+	puts hash
 end
 
 
