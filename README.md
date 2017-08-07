@@ -1,4 +1,4 @@
-# Enumerables Project
+# Substrings Project
 
 This is my version of implementing a [string searching algorithm](https://en.wikipedia.org/wiki/String_searching_algorithm).
 It is a method that takes a string as an argument and an array of valid substrings as the second argument.
